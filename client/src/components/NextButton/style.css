@@ -1,0 +1,27 @@
+.survey-widget-continue-container{
+    padding: 3vh 0;
+    background: rgb(13,59,112);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.survey-widget-continue{
+    display: inline-block;
+    width: 20vh;
+    padding: 14px 10px;
+    color: rgb(13,59,112);
+    font-weight: bold;
+    background: white;
+    border: rad;
+    border-radius: 100px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.survey-widget-continue:hover{
+    border: 1px solid white;
+    background-color: rgb(13,59,112);
+    color: white;
+}

@@ -1,0 +1,8 @@
+.nps-button-container{
+    display: flex;
+    margin-bottom: 9vh;
+}
+
+.nps-widget-container{
+    padding: 0 5vw;
+}

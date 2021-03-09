@@ -1,0 +1,23 @@
+{
+  "name": "survey-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server/server.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently --kill-others \"npm start\" \"npm run client\""
+  },
+  "author": "Ilia",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "nanoid": "^3.1.20"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.0"
+  }
+}

@@ -1,0 +1,10 @@
+.widget-header{
+    margin-bottom: 7px;
+    margin-top: 0;
+}
+
+.widget-required-paragraph{
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: red;
+}

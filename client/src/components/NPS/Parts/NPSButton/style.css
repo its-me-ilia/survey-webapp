@@ -1,0 +1,26 @@
+.nps-button{
+    background-color: transparent;
+    border: 1px solid lightgrey;
+    flex: 1;
+    margin: 0 5px;
+    padding: 7px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nps-btn-over{
+    background-color: rgb(230,232,235);
+}
+
+.nps-btn-normal{
+    background-color: transparent;
+}
+
+.nps-btn-selected{
+    background-color: rgb(64,201,178);
+    color: white;
+}
+
+.nps-button:hover{
+    border: 1px solid lightskyblue;
+}

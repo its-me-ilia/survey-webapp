@@ -1,0 +1,11 @@
+.textarea-widget-container{
+    padding: 0 5vw;
+}
+
+.textarea-widget-container textarea{
+    width: 35vw;
+    border: 2px solid grey;
+    border-radius: 3px;
+    font-size: 1.1rem;
+    margin-bottom: 2vw;
+}
